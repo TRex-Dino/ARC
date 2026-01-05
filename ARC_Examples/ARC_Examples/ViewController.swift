@@ -9,11 +9,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    // MARK: - Lifecycle
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        view.backgroundColor = .systemBackground
+
+        runDemos()
     }
 
+    // MARK: - Main Demo Runner
 
+    func runDemos() {
+        Video01_MinimalDemo.runForVideo()
+    }
 }
-
